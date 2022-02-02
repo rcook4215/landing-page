@@ -1,0 +1,142 @@
+*{
+    font-family: monospace;
+}
+
+
+
+.first{
+    background-color: rgb(7, 71, 122);
+    padding: 30px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ol li{
+    display: flex;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+ul li{
+
+    display: flex;
+    list-style-type: none;
+    display: inline;
+    padding: 45px;
+    text-align: center;
+}
+
+a:link {
+
+    color:crimson;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    color:indigo;
+}
+.welcome{
+    color:blue;
+  
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-header{
+    display: grid-column;
+    justify-content: center;
+}
+
+
+.samuel{
+    display:flex;
+}
+img {
+    max-width:200px;
+    height:auto;
+}
+
+
+.second{
+    display: block;
+    text-align: center;
+
+}
+
+.fuckers{
+    display:block;
+    justify-content: space-evenly;
+    line-height: 0mm;
+
+}
+
+#third{
+    background-color: rgb(110, 138, 161);
+    padding: 150px;
+}
+
+#random{
+    text-align: center;
+}
+
+#anonymous{
+    padding-right: px;
+    text-align: end;
+}
+
+.fourth{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    color:midnightblue;
+}
+
+#mybutton{
+    display: inline-block;
+    padding: 10px;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(7, 71, 122);
+    color: white;
+    text-align: center;
+  }
+
